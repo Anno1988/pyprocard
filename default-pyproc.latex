@@ -148,7 +148,7 @@ $if(author)$
 $endif$
 \date{$date$}
 \uppertitleback{
-Dieses Script ist eine offene Bildungsressource (OER). Die Autorinnen und Autoren, die daran mitgearbeitet haben, können unter https://github.com/xldrkp/InformatikII/graphs/contributors eingesehen werden. Über die Möglichkeiten von Github kann jeder Interessierte auf unterschiedliche Weise an dem Dokument mitarbeiten und an den eigenen Lehrkontext anpassen.\\ \\
+Dieses Script ist eine offene Bildungsressource (OER). Die Autorinnen und Autoren, die daran mitgearbeitet haben, können unter https://github.com/xldrkp/pyprocard/graphs/contributors eingesehen werden. Über die Möglichkeiten von Github kann jeder Interessierte auf unterschiedliche Weise an dem Dokument mitarbeiten und an den eigenen Lehrkontext anpassen.\\ \\
 Fork and contribute!
 }
 \lowertitleback{

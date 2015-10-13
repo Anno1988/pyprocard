@@ -15,6 +15,10 @@ Daher soll versucht werden, in den kommenden Veranstaltungen Python als "eine Sp
 
 Durch das Projekt [Processing.py](http://py.processing.org) ist ein Zugang zu der inspirierenden Programmierumgebung von Processing *über Python* möglich. Die Integration von und Kommunikation mit der Hardwareplattform Arduino gelingt ebenfalls. Das vorliegende Skript will den Lernenden der Veranstaltung einen leichten Einstieg ermöglichen und gleichzeitig als flexibel nutzbares und offen lizensiertes Lehrmaterial dienen, das beliebig erweitert und angepasst werden kann. Es wird daher als *Open Educational Resource* veröffentlicht und spricht eine Einladung zur Weiterverwendung, Umnutzung und Anpassung aus.
 
+## Aktueller Release
+
+Damit der Stand des Skripts für die Studierenden nutzbar ist, wird mit jedem Commit auch das aktuelle PDF auf Github hochgeladen. Dieses befindet sich im Ordner `built`.
+
 ## Lizenz
 
 Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 4.0 International Lizenz. Um eine Kopie dieser Lizenz einzusehen, besuchen Sie bitte http://creativecommons.org/licenses/by/4.0/.
