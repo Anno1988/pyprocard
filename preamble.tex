@@ -1,0 +1,111 @@
+% Table of contents formatting
+\renewcommand{\contentsname}{Table of Contents}
+\setcounter{tocdepth}{1}
+
+% Headers and page numbering
+\usepackage{fancyhdr}
+\pagestyle{plain}
+
+
+% Fonts and typesetting
+%\setmainfont{Constantia}
+\setmainfont{Droid Serif}
+\setsansfont{Corbel}
+
+% Set figure legends and captions to be smaller sized sans serif font
+\usepackage[font={small,sf}]{caption}
+
+\usepackage{siunitx}
+
+% Adjust spacing between lines to 1.5
+\usepackage{setspace}
+%\onehalfspacing
+\raggedbottom
+
+% Set margins
+\usepackage[top=1.25in,bottom=1.25in]{geometry}
+
+% Chapter styling
+\usepackage[grey]{quotchap}
+\makeatletter
+\renewcommand*{\chapnumfont}{%
+  \usefont{T1}{\@defaultcnfont}{b}{n}\fontsize{80}{100}\selectfont% Default: 100/130
+  \color{chaptergrey}%
+}
+\makeatother
+
+% Set colour of links to black so that they don't show up when printed
+%\usepackage{hyperref}
+%\hypersetup{colorlinks=true, linkcolor=black}
+
+% Tables
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage{array}
+\newcolumntype{x}[1]{%
+>{\centering\arraybackslash}m{#1}}%
+
+% Allow for long captions and float captions on opposite page of figur
+
+% Don't let floats cross subsections
+%\usepackage[section,subsection]{extraplaceins}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+
+\lstdefinestyle{mystyle}{
+    %backgroundcolor=\color{backcolour},
+    language=Python,
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    otherkeywords={self},
+    emph={setup,draw},
+    emphstyle=\color{blue},
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    lineskip=0pt,
+    aboveskip=15pt,
+    belowskip=10pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    prebreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+    tabsize=2,
+    frame=tb
+}
+
+\lstset{style=mystyle}
+
+% Schriftgröße für Code-Blöcke
+%\renewenvironment{Shaded}{\footnotesize}{}
+%\renewenvironment{Shaded}{\small}{}
+
+% Größe für Zitatblöcke ändern
+\renewenvironment{quote}
+{\list{}{\rightmargin1cm\leftmargin1cm}%
+	\fontsize{8.5}{9}\selectfont
+	\item\relax}
+{\endlist}
+
+% Fettdruck für caption label
+\usepackage[labelfont=bf,labelsep=colon]{caption}
+
+% Set figure legends and captions to be smaller sized sans serif font
+\usepackage[font={small,sf}]{caption}
+
+% Formattierung von Fu\ss{}noten
+\usepackage[hang,marginal]{footmisc}
+\setlength{\footnotemargin}{1em}
+%\setlength{\footnotesep}{0.5cm}
+
+\usepackage{cleveref}
